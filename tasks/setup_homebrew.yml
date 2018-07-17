@@ -1,0 +1,32 @@
+---
+
+- name: Tap homebrew
+  homebrew_tap:
+    name: "{{ item }}"
+  loop: "{{ homebrew_taps }}"
+  tags:
+    - homebrew_tap
+
+- name: Install homebrew packages
+  homebrew:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ homebrew_installed_packages }}"
+  tags:
+    - homebrew_packages
+
+- name: Install homebrew casks
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ homebrew_cask_apps }}"
+  tags:
+    - homebrew_cask
+
+- name: Install homebrew cask fonts
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ homebrew_cask_fonts }}"
+  tags:
+    - homebrew_font

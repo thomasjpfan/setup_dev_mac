@@ -1,0 +1,25 @@
+---
+
+- name: Clone git repo
+  git:
+    repo: "{{ dotfiles_repo }}"
+    dest: ~/dotfiles
+    track_submodules: true
+
+- name: Create directories
+  file:
+    path: "{{ item }}"
+    state: directory
+    recurse: yes
+  loop:
+    - ~/.zfunctions
+    - ~/.config/nvim
+
+- name: Link files
+  file:
+    src: "{{ item.src }}"
+    path: "{{ item.dst }}"
+    state: link
+  loop: "{{ dotfile_links }}"
+
+

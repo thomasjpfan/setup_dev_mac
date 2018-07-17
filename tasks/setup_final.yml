@@ -1,0 +1,6 @@
+---
+
+- name: Run osx defaults configure
+  shell: "~/dotfiles/configure_osx.bash"
+  changed_when: false
+  tags: osx
