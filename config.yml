@@ -17,6 +17,10 @@ dotfile_links:
     dst: ~/.zfunctions/prompt_spaceship_setup
   - src: ~/dotfiles/nvim-config/init.vim
     dst: ~/.config/nvim/init.vim
+  - src: ~/dotfiles/git/gitconfig
+    dst: ~/.gitconfig
+  - src: ~/dotfiles/git/gitignore_global
+    dst: ~/.gitignore_global
 
 homebrew_installed_packages:
   - go
