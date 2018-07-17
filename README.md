@@ -1,4 +1,4 @@
-# My OSX setup
+# My OSX dev setup
 
 1. `xcode-select --install`
 1. Install [anaconda](https://www.anaconda.com/download/#macos).
@@ -11,3 +11,7 @@
 1. Install [vscode](https://code.visualstudio.com) and sync extensions.
 1. Setup ssh keys
 1. Setup backups
+
+## Extra
+
+1. Install [legit](http://www.git-legit.org).
