@@ -9,6 +9,7 @@
 1. `curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 1. `nvim +PlugInstall +qall`
 1. Install [vscode](https://code.visualstudio.com) and sync extensions.
+1. Install [karabiner-elements](karabiner-element).
 1. Setup ssh keys
 1. Setup backups
 
