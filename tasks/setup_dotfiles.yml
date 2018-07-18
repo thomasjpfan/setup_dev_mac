@@ -15,6 +15,7 @@
   loop:
     - ~/.zfunctions
     - ~/.config/nvim
+    - ~/go
   tags: dotfiles
 
 - name: Link files
