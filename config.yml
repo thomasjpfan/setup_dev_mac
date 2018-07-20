@@ -80,6 +80,7 @@ homebrew_cask_apps:
   - mongodb-compass-community
   - mendeley
   - paintcode
+  - bettertouchtool
 
 homebrew_cask_fonts:
   - font-fira-code
@@ -92,7 +93,7 @@ mas_installed_apps:
   - { id: 427729297, name: "Runway" }
   - { id: 824171161, name: "Affinity Designer" }
   - { id: 407963104, name: "Pixelmator" }
-  - { id: 497799835, name: "Xcode" }
+#  - { id: 497799835, name: "Xcode" }
   - { id: 429449079, name: "Patterns" }
   - { id: 734258109, name: "Watchdog" }
   - { id: 961632517, name: "Be Focused Pro" }
