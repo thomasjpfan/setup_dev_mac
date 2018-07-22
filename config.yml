@@ -21,6 +21,8 @@ dotfile_links:
     dst: ~/.gitconfig
   - src: ~/dotfiles/git/gitignore_global
     dst: ~/.gitignore_global
+  - src: ~/dotfiles/condarc
+    dst: ~/.condarc
 
 homebrew_installed_packages:
   - go
