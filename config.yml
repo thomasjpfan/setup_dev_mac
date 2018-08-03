@@ -125,3 +125,4 @@ mas_installed_apps:
   - { id: 1384080005, name: "Tweetbot" }
   - { id: 495152161, name: "Wizard" }
   - { id: 939343785, name: "Icon Set Creator" }
+  - { id: 1319778037, name: "iStat Menus" }
