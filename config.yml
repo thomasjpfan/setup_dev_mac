@@ -47,6 +47,9 @@ homebrew_installed_packages:
   - direnv
   - "n"
   - ctags
+  - bat
+  - prettyping
+  - fzf
 
 homebrew_taps:
   - homebrew/core
