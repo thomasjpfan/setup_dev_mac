@@ -71,7 +71,6 @@ homebrew_cask_apps:
   - dash
   - fork
   - forklift
-  - goofy
   - nvalt
   - marshallofsound-google-play-music-player
   - imageoptim
@@ -86,6 +85,7 @@ homebrew_cask_apps:
   - mendeley
   - paintcode
   - bettertouchtool
+  - caprine
 
 homebrew_cask_fonts:
   - font-fira-code
