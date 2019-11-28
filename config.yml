@@ -1,5 +1,4 @@
 ---
-
 configure_mas_apps: yes
 
 dotfiles_repo: https://github.com/thomasjpfan/dotfiles
@@ -25,18 +24,10 @@ dotfile_links:
     dst: ~/.condarc
 
 homebrew_installed_packages:
-  - go
   - tmux
-  - dep
-  - go
-  - haproxy
-  - nginx
   - jq
   - mosh
   - neovim
-  - node
-  - postgresql
-  - pgtune
   - tree
   - wakeonlan
   - cmake
@@ -45,11 +36,9 @@ homebrew_installed_packages:
   - mas
   - zsh
   - direnv
-  - "n"
   - ctags
   - bat
-  - prettyping
-  - fzf
+  - pipx
 
 homebrew_taps:
   - homebrew/core
@@ -62,7 +51,6 @@ homebrew_cask_apps:
   - google-chrome
   - docker
   - dropbox
-  - vlc
   - alfred
   - appcleaner
   - bartender
@@ -72,20 +60,17 @@ homebrew_cask_apps:
   - fork
   - forklift
   - nvalt
-  - marshallofsound-google-play-music-player
   - imageoptim
   - crunch
   - kaleidoscope
   - paw
   - postico
-  - robo-3t
-  - slack
+  - postgresql
+  - pgtune
   - typinator
-  - mongodb-compass-community
-  - mendeley
   - paintcode
   - bettertouchtool
-  - caprine
+  - turbo-boost-switcher
 
 homebrew_cask_fonts:
   - font-fira-code
@@ -95,16 +80,17 @@ mas_installed_apps:
   - { id: 824183456, name: "Affinity Photo" }
   - { id: 549083868, name: "Display Menu" }
   - { id: 1081413713, name: "GIF Brewery 3" }
+  - { id: 462058435, name: "Microsoft Excel" }
   - { id: 427729297, name: "Runway" }
   - { id: 824171161, name: "Affinity Designer" }
+  - { id: 462054704, name: "Microsoft Word" }
   - { id: 407963104, name: "Pixelmator" }
-#  - { id: 497799835, name: "Xcode" }
+  #  - { id: 497799835, name: "Xcode" }
   - { id: 429449079, name: "Patterns" }
   - { id: 734258109, name: "Watchdog" }
   - { id: 961632517, name: "Be Focused Pro" }
   - { id: 969418666, name: "ColorSnapper2" }
-  # - { id: 918858936, name: "Airmail 3"}
-  - { id: 586001240, name: "SQLPro for SQLite"}
+  - { id: 586001240, name: "SQLPro for SQLite" }
   - { id: 403504866, name: "PCalc" }
   - { id: 924726344, name: "Deliveries" }
   - { id: 1055273043, name: "PDF Expert" }
@@ -119,14 +105,12 @@ mas_installed_apps:
   - { id: 409201541, name: "Pages" }
   - { id: 588726889, name: "ReadKit" }
   - { id: 979299240, name: "NetworkUtilityX" }
-  # - { id: 477670270, name: "2Do" }
   - { id: 411643860, name: "DaisyDisk" }
   - { id: 409203825, name: "Numbers" }
   - { id: 866773894, name: "Quiver" }
   - { id: 409183694, name: "Keynote" }
   - { id: 1384080005, name: "Tweetbot" }
   - { id: 495152161, name: "Wizard" }
-  - { id: 939343785, name: "Icon Set Creator" }
-  # - { id: 1319778037, name: "iStat Menus" }
   - { id: 1440147259, name: "AdGuard for Safari" }
   - { id: 1143437985, name: "GoodTask" }
+  - { id: 1319778037, name: "iStat Menus" }
