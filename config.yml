@@ -22,6 +22,8 @@ dotfile_links:
     dst: ~/.gitignore_global
   - src: ~/dotfiles/condarc
     dst: ~/.condarc
+  - src: ~/dotfiles/direnvrc
+    dst: ~/.direnvrc
 
 homebrew_installed_packages:
   - tmux
