@@ -1,32 +1,13 @@
 ---
-
-- name: Tap homebrew
+- name: Enable Homebrew bundle tap
   homebrew_tap:
-    name: "{{ item }}"
-  loop: "{{ homebrew_taps }}"
-  tags:
-    - homebrew_tap
+    name: homebrew/bundle
 
-- name: Install homebrew packages
-  homebrew:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ homebrew_installed_packages }}"
-  tags:
-    - homebrew_packages
+- name: Check if Brewfile contains updates
+  shell: brew bundle check --file=Brewfile
+  register: bundle_check_result
+  ignore_errors: true
 
-- name: Install homebrew casks
-  homebrew_cask:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ homebrew_cask_apps }}"
-  tags:
-    - homebrew_cask
-
-- name: Install homebrew cask fonts
-  homebrew_cask:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ homebrew_cask_fonts }}"
-  tags:
-    - homebrew_font
+- name: Install apps using Brewfile
+  shell: brew bundle install --file=Brewfile
+  when: bundle_check_result|bool

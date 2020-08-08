@@ -4,11 +4,6 @@
   vars_files:
     - config.yml
 
-  roles:
-    - role: geerlingguy.mas
-      when: configure_mas_apps
-      tags: ['mas']
-
   tasks:
     - import_tasks: tasks/setup_homebrew.yml
     - import_tasks: tasks/setup_dotfiles.yml

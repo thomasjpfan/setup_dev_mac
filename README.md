@@ -2,7 +2,7 @@
 
 1. `xcode-select --install`
 1. Install homebrew.
-1. Install Ansible
+1. `brew install ansible`
 1. `ansible-galaxy install -r requirements.yml`
 1. `ansible-playbook osx_setup.yml -i inventory -K`
 1. `chsh -s /usr/local/bin/zsh`
