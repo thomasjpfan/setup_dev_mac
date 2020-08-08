@@ -42,7 +42,9 @@ homebrew_installed_packages:
   - bat
   - pipx
   - postgresql
-  - pgtune
+  - hugo
+  - tmuxinator
+  - htop
 
 homebrew_taps:
   - homebrew/core
@@ -63,7 +65,6 @@ homebrew_cask_apps:
   - dash
   - fork
   - forklift
-  - nvalt
   - imageoptim
   - crunch
   - kaleidoscope
@@ -73,6 +74,8 @@ homebrew_cask_apps:
   - paintcode
   - bettertouchtool
   - turbo-boost-switcher
+  - drawio
+  - nvalt
 
 homebrew_cask_fonts:
   - font-fira-code
@@ -86,8 +89,6 @@ mas_installed_apps:
   - { id: 427729297, name: "Runway" }
   - { id: 824171161, name: "Affinity Designer" }
   - { id: 462054704, name: "Microsoft Word" }
-  - { id: 407963104, name: "Pixelmator" }
-  #  - { id: 497799835, name: "Xcode" }
   - { id: 429449079, name: "Patterns" }
   - { id: 734258109, name: "Watchdog" }
   - { id: 961632517, name: "Be Focused Pro" }
@@ -116,3 +117,7 @@ mas_installed_apps:
   - { id: 1440147259, name: "AdGuard for Safari" }
   - { id: 1143437985, name: "GoodTask" }
   - { id: 1319778037, name: "iStat Menus" }
+  - { id: 1477385213, name: "Save to Pocket" }
+  - { id: 1035137927, name: "KeyKey" }
+  - { id: 592704001, name: "Photos Duplicate Cleaner" }
+  - { id: 1289583905, name: "Pixelmator Pro" }
